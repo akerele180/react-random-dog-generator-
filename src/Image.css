@@ -1,0 +1,42 @@
+div.dog-image-container {
+    width: 400px;
+    height: 450px;
+    margin-bottom: 20px;
+}
+.dog-image-container img{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+/* BUTTON */
+div.dog-btn {
+    width : 100%;
+    /* height: 20px; */
+    cursor: pointer;
+    background-color: #8f8644;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 2px solid #fff;
+}
+div.dog-btn button {
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: all .5s ease;
+}
+div.dog-btn:hover {
+    background-color: transparent;
+    color: #8f8644;
+}
+div.dog-btn button:hover {
+    color: #8f8644;
+} 
